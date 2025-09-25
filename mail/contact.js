@@ -11,8 +11,6 @@ $(function () {
             var nombre = $("input[name='nombre']").val();
             var telefono = $("input[name='telefono']").val();
             var edad = $("input[name='edad']").val();
-            var corte = $("select[name='corte']").val();
-            var lugar = $("select[name='Lugar']").val(); // coincide con el formulario
             var fecha = $("input[name='fecha']").val();
             var detalles = $("textarea[name='detalles']").val();
             
@@ -20,8 +18,6 @@ $(function () {
             $("#mNombre").text(nombre);
             $("#mTelefono").text(telefono);
             $("#mEdad").text(edad);
-            $("#mCorte").text(corte);
-            $("#mLugar").text(lugar);
             $("#mFecha").text(fecha);
             $("#mDetalles").text(detalles);
 
@@ -38,8 +34,6 @@ $(function () {
         var nombre = $("#mNombre").text();
         var telefono = $("#mTelefono").text();
         var edad = $("#mEdad").text();
-        var corte = $("#mCorte").text();
-        var lugar = $("#mLugar").text();
         var fecha = $("#mFecha").text();
         var detalles = $("#mDetalles").text();
 
@@ -47,8 +41,6 @@ $(function () {
 👤 Nombre: ${nombre}%0A
 📞 Teléfono: ${telefono}%0A
 🎂 Edad: ${edad}%0A
-✂️ Corte: ${corte}%0A
-📍 Lugar: ${lugar}%0A
 📝 Detalles: ${detalles}%0A
 📅 Fecha: ${fecha}`;
 
