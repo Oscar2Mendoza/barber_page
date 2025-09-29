@@ -67,6 +67,34 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
+/*Edición de la clase introducción*/
+.introduccion {
+  font-size: 1.2rem;         /* tamaño base */
+  color: #1f1818;            /* cámbialo según tu paleta */
+  text-align: justify;       /* mejor distribución del texto */
+  margin: 20px auto;         /* espacio arriba/abajo y centrado */
+  padding: 0 15px;           /* espacio interno en móviles */
+  max-width: 900px;          /* no más ancho que 900px en pantallas grandes */
+  line-height: 1.7;          /* legibilidad */
+}
+
+/* Ajuste en tablets */
+@media (max-width: 768px) {
+  .introduccion {
+    font-size: 1.1rem;
+    max-width: 100%;         /* ocupa el ancho completo */
+    text-align: left;        /* mejor lectura en móvil */
+  }
+}
+
+/* Ajuste en móviles */
+@media (max-width: 480px) {
+  .introduccion {
+    font-size: 1rem;         /* más pequeño en pantallas chicas */
+    padding: 0 10px;         /* más espacio a los lados */
+  }
+}
+
 
 hr {
   box-sizing: content-box;
