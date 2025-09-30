@@ -45,7 +45,7 @@ $(function () {
 📅 Fecha: ${fecha}`;
 
         // Número de WhatsApp (reemplázalo con el de Yeiron--es el mío Oscar)
-        var numero = "573127418644";
+        var numero = "573226489480";
         var url = `https://wa.me/${numero}?text=${mensaje}`;
 
         window.open(url, "_blank");
